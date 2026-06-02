@@ -186,8 +186,7 @@
     });
   }
 
-  // ---------- Folder hover (CSS-driven, here as no-op hook) ---
-  // ---------- Marquee duplication ----------------------------
+    // ---------- Marquee duplication ----------------------------
   function initMarquee() {
     document.querySelectorAll(".marquee-track").forEach(t => {
       t.innerHTML = t.innerHTML + t.innerHTML;
